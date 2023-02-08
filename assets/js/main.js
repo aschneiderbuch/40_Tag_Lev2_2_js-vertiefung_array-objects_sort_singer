@@ -26,3 +26,9 @@ console.table(singers)
 // mit .localCompare
 console.log(singers.sort((a, b) => a.name.localeCompare(b.name)))
 console.table(singers.sort((a, b) => a.name.localeCompare(b.name)))
+
+// function(a, b){return a-b}
+console.log(singers.sort(function(a, b){return a-b}
+))
+console.table(singers.sort(function(a, b){return a-b}
+))
